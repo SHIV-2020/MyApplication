@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/flag"
+        android:scaleType="centerCrop"
+    ></ImageView>
+<TextView
+android:id="@+id/name"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/bg"
+android:layout_marginTop="10dp"
+android:layout_marginLeft="20dp"
+android:text="SHIVAM SWAPNIL"
+android:textColor="#FF0000"
+android:textSize="30dp"
+android:textstyle="bold"
+   ></TextView>
+<TextView
+    android:id="@+id/des"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/name"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="20dp"
+    android:text="ANDROID DEVELOPER"
+    android:textSize="25dp"
+    android:textStyle="bold"
+    ></TextView>
+ <TextView
+     android:id="@+id/edu"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/des"
+     android:text="EDUCATION"
+     android:textColorHighlight="@color/colorPrimary"
+     android:textStyle="bold"
+     android:textSize="30dp"
+     android:layout_marginLeft="20dp"
+     ></TextView>
+ <TextView
+     android:id="@+id/col"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/edu"
+     android:text="ARCADE BUSINESS COLLEGE"
+     android:textSize="20dp"
+     android:textStyle="bold"
+     android:layout_marginLeft="20dp"
+     android:layout_marginTop="5dp"
+     ></TextView>
+    <TextView
+        android:id="@+id/cor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/col"
+        android:text="BCA"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cor"
+        android:text="2018-2020"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/crs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/year"
+        android:text="COURSE"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/cname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/crs"
+        android:layout_marginLeft="20dp"
+        android:text="What After College"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/wname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cname"
+        android:layout_marginTop="5dp"
+        android:text="ANDROID APP DEVELOPMENT"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        ></TextView>
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wname"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="50dp"
+        android:text="OPEN GMAIL"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorPrimaryDark"
+        ></Button>
+
+</RelativeLayout>
